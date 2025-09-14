@@ -86,7 +86,7 @@ This plugin is licensed under the [GNU General Public License v3.0 or later](htt
 
 ![Gutenberg Settings](https://vaibhawkumarparashar.in/wp-content/uploads/2025/09/image-one.png)
 
-### Post Types Selection
+### Plugin Page
 
 ![Post Types](https://vaibhawkumarparashar.in/wp-content/uploads/2025/09/image-two.png)
 
