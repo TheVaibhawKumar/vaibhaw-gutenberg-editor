@@ -1,48 +1,39 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+# Ignore common system files
+.DS_Store
+Thumbs.db
 
-# Core
-#
-# Note: if you want to stage/commit WP core files
-# you can delete this whole section/until Configuration.
+# Ignore node modules if you use any tooling
+node_modules/
+
+# Ignore vendor directory if you use composer or similar
+vendor/
+
+# Ignore environment files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore WordPress core files (not needed in plugin repo)
 /wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
 /wp-includes/
 /index.php
 /license.txt
 /readme.html
-/wp-*.php
 /xmlrpc.php
+/wp-*.php
 
-# Configuration
-wp-config.php
-
-# Example themes
-/wp-content/themes/twenty*/
-
-# Example plugin
-/wp-content/plugins/hello.php
-
-# Uploads
+# Ignore uploads (not part of plugin development)
 /wp-content/uploads/
 
-# Log files
-*.log
+# Ignore other irrelevant files
+*.bak
+*.tmp
 
-# htaccess
-/.htaccess
-
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
-
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+# Keep only plugin-specific files
+# Optionally, you can include these if necessary:
+# /assets/
+# /includes/
+# /languages/
+# vaibhaw-gutenberg-editor.php
+# readme.txt
