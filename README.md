@@ -80,6 +80,16 @@ This plugin is licensed under the [GNU General Public License v3.0 or later](htt
 
 ---
 
+## 📸 Screenshots
+
+### Gutenberg Editor Settings Page
+
+![Gutenberg Settings](https://vaibhawkumarparashar.in/wp-content/uploads/2025/09/image-one.png)
+
+### Post Types Selection
+
+![Post Types](https://vaibhawkumarparashar.in/wp-content/uploads/2025/09/image-two.png)
+
 ## 🤝 Contributing
 
 Feel free to fork the repository, submit pull requests, or report issues. All contributions are welcome!
