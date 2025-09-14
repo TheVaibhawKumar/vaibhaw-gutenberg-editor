@@ -36,9 +36,6 @@ A lightweight and flexible plugin that gives site administrators control over wh
 
 ## 🧩 Changelog
 
-### 1.0.1
-- Added “View Details” link in plugin actions.
-
 ### 1.0.0
 - Initial release.
 - Enabled Gutenberg editor for all public post types by default.
